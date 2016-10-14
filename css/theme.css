@@ -1,0 +1,37 @@
+/* REFERENCE, DELETE WHEN DEPLOYED
+*
+* COLORS:
+* NINER RED: #AF1E2C
+* NINER GOLD: #E6BE8A
+* GREY: #2B2D36
+* MATTE BLACK: #141519
+* MAROON: #4C0D13
+*/
+
+
+
+/** Defines The Fonts Lovelo Black, Lovelo Line Bold, and Lovelo Line Light  */
+@font-face {
+	font-family: "Lovelo Black";
+	src: url("fonts/LoveloBlack.woff");
+}
+@font-face {
+	font-family: "Lovelo Line Bold";
+	src: url("fonts/LoveloLineBold.woff");
+}
+@font-face {
+	font-family: "Lovelo Line Light";
+	src: url("fonts/LoveloLineLight.woff");
+}
+
+.test
+{
+	font-family: "Lovelo Line Bold","Lovelo Line Light";
+	font-size: small;
+	color: #E6BE8A;
+	background-color: #4C0D13;
+}
+
+.dark{
+	background-color: #141519;
+}
